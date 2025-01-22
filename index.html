@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Asghari Nettside</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+        .section:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Velkommen til Ali Asghari Nettside</h1>
+    </header>
+
+    <div class="section" onclick="alert('Du trykket på seksjon 1!')">
+        <h2>Seksjon 1</h2>
+        <p>Informasjon om Seksjon 1.</p>
+    </div>
+
+    <div class="section" onclick="alert('Du trykket på seksjon 2!')">
+        <h2>Seksjon 2</h2>
+        <p>Informasjon om Seksjon 2.</p>
+    </div>
+
+    <div class="section" onclick="alert('Du trykket på seksjon 3!')">
+        <h2>Seksjon 3</h2>
+        <p>Informasjon om Seksjon 3.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ali Asghari</p>
+    </footer>
+</body>
+</html>
